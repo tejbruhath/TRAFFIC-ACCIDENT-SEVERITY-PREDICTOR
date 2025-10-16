@@ -18,3 +18,4 @@ python src/train.py --data data/processed/accidents_clean.csv --config config/co
 ```
 
 Artifacts are saved to `model/`.
+# TRAFFIC-ACCIDENT-SEVERITY-PREDICTOR
