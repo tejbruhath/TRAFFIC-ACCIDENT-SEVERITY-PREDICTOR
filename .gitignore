@@ -2,4 +2,12 @@ venv/
 __pycache__/
 *.pyc
 data/raw/
+!data/raw/.gitkeep
+data/processed/
+!data/processed/.gitkeep
 model/
+!model/.gitkeep
+!model/metrics.json
+!model/*.joblib
+notebooks/
+!notebooks/.gitkeep

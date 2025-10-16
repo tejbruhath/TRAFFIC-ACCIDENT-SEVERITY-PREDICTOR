@@ -7,17 +7,6 @@ split:
   val_size: 0.1
   random_state: 42
 target: severity
-features:
-  - datetime
-  - latitude
-  - longitude
-  - road_type
-  - weather
-  - visibility
-  - surface_condition
-  - num_vehicles
-  - speed_limit
-  - light_condition
 model:
   type: RandomForestClassifier
   params:
